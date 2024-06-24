@@ -1,5 +1,5 @@
 .page {
-    font-family: "Inter", "Arial", sans-serif;
+    font-family: Inter, Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     max-width: 1600px;
@@ -79,7 +79,7 @@
 
 .header__description {
     max-width:683px;
-    font-family: "Noto Serif";
+    font-family: Noto Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -100,7 +100,7 @@
     margin-bottom: 40px;
 }
 
-.header__paragraphs_address {
+.header__paragraph_address {
     padding-top: 40px;
 }
 
@@ -138,7 +138,7 @@
 .recipes__subtitle {
     font-family: Noto Serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     max-width:438px;
@@ -168,4 +168,6 @@
 
 .recipes__iframe {
 border-style: none;
+width: 560px;
+height: 315px;
 }
