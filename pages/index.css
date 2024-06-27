@@ -184,12 +184,11 @@ height: 315px;
     display:flex;
     justify-content: center;
     margin-top: 80px;
-    height: 100%;
 }
 
 .form {
-    margin-bottom: 120px;
     width: 385px;
+    display:block;
 }
 
 .reservation__title {
@@ -251,6 +250,9 @@ height: 315px;
     display: flex;
     border: none;
     margin-top: 32px;
+    margin-bottom: 120px;
+    padding: 0;
+    height: 30px;
 }
 .form__input_type_checkbox {
     width: 20px;
