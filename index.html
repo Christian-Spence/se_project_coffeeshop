@@ -4,14 +4,13 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="We've got the best coffee to energize you! With pure coffee beans to lift those vibes to help you get creative!"/>
-    <meta name="author" content="Christian Spence"/>
+    <meta name="author" content="Christian Jordan Spence"/>
     <meta name="keywords" content="coffee, coffee beans, coffee shop"/>
     <link rel="stylesheet" href="./pages/index.css"/>
-    <link rel="stylesheet" href="./vendor/normalize.css"/>
     <link rel="image icon" href="favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Noto+Serif&amp;display=swap" 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Noto+Serif&amp;display=swap" 
 rel="stylesheet">
     <title>Spence's Coffee Shop</title>
 </head>
@@ -118,23 +117,176 @@ rel="stylesheet">
                                 name="email"
                                 required/>
                             <button type="submit" class="form__button">Book a table</button>
-                            <fieldset class="form__fieldset form__fieldset_checkbox">
+                            <fieldset class="form__fieldset_checkbox">
                                 <input
-                                class=" form__input form__input_type_checkbox"
+                                class="form__input_type_checkbox"
                                 name="Terms of use"
                                 id="terms-of-use"
                                 type="checkbox"/>
-                                <label for="terms-of-use" class="form__label form__label_checkbox">I agree with the terms of use</label>
+                                <label for="terms-of-use" class="form__label_checkbox">I agree with the terms of use</label>
                             </fieldset>
                             </fieldset>
                         </form>
                     </div>
                 </section>
 
-                <section class="menu" id="menu"></section>
-                <section class="contacts" id="contacts"></section>
-            </main>
-            <footer class="footer"></footer>
+                <section class="menu" id="menu">
+                        <p class="menu__title">Menu</p>
+                        <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. 
+                            All teas from our collection are $2/cup.</p>
+                        <div class="menu__cards">
+                            <ul class="card">
+                                <h3 class="card__title">Filter</h3>
+                                <li class="card__list-item">
+                                    Regular (12 oz)
+                                    <span class="card__list-divider"></span>
+                                    $1
+                                </li>
+
+                                <li class="card__list-item">
+                                    Large (16 oz)
+                                    <span class="card__list-divider"></span>
+                                    $1.25
+                                </li>
+
+                                <li class="card__list-item">
+                                    XL (20 oz)
+                                    <span class="card__list-divider"></span>
+                                    $1.5
+                                </li>
+
+                                <li class="card__list-item">
+                                    Party-size (24 oz,decaf)
+                                    <span class="card__list-divider"></span>
+                                    $1.75
+                                </li>
+
+                                <li class="card__list-item">
+                                    Iced Coffee (16 oz)
+                                    <span class="card__list-divider"></span>
+                                    $1.25
+                                </li>
+                            </ul>
+
+                            <ul class="card">
+                                <h3 class="card__title">Espresso</h3>
+                                <li class="card__list-item">
+                                    Macchiato
+                                        <span class="card__list-divider"></span>
+                                        $2.25
+                                </li>
+    
+                                <li class="card__list-item">
+                                    Cortado
+                                        <span class="card__list-divider"></span>
+                                        $2.5
+                                </li>
+    
+                                <li class="card__list-item">
+                                    Cortado
+                                        <span class="card__list-divider"></span>
+                                        $3
+                                </li>
+    
+                                 <li class="card__list-item">
+                                    Sunrise in the Bay Area (decaf)
+                                        <span class="card__list-divider"></span>
+                                        $10
+                                 </li>
+                             </ul>
+                            </div>
+                            <div class="menu__cards">
+                             <ul class="card">
+                                   <h3 class="card__title">Baked Goods</h3>
+                                <li class="card__list-item">
+                                    Almond Croissant
+                                        <span class="card__list-divider"></span>
+                                        $2
+                                 </li>
+    
+                                 <li class="card__list-item">
+                                    Banana Bread
+                                        <span class="card__list-divider"></span>
+                                        $1.75
+                                 </li>
+    
+                                 <li class="card__list-item">
+                                    Key Lime Pie
+                                        <span class="card__list-divider"></span>
+                                        $3
+                                 </li>
+    
+                                  <li class="card__list-item">
+                                    Blue Velvet Cake
+                                        <span class="card__list-divider"></span>
+                                        $3.75
+                                 </li>
+    
+                                 <li class="card__list-item">
+                                    Web Cookie
+                                        <span class="card__list-divider"></span>
+                                        $2
+                                 </li>
+    
+                                 <li class="card__list-item">
+                                    Fresh Bug’uette
+                                        <span class="card__list-divider"></span>
+                                        $0.25
+                                 </li>
+                             </ul>
+                        </div>
+                </section>
+
+                <section class="about" id="about">
+                    <div class="about__circle"></div>
+                        <div class="about__circle_animation_blurred"></div>
+                        <div class="about__section">
+                            <p class="about__title">About the coffee shop</p>
+                        <div class="about__content">
+                            <p class="about__paragraph">
+                                Our coffee shop is located in the Triple Peaks Library. 
+                                It features 6 tables and free WiFi.
+                            </p>
+                            <p class="about__paragraph">
+                                Our main mission is keeping guests cozy and energized.
+                            </p>
+                            <p class="about__paragraph">
+                                Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. 
+                                But you can buy one of our reusable cups!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+        </main>
+                <footer class="footer" id="contacts">
+                    <div class="footer__content">
+                        <img src="./images/logo_coffeeshop_light.svg" 
+                        alt="Coffee Shop Logo" 
+                        class="footer__logo">
+                        <div class="footer_list">
+                        <h4 class="footer__social-heading">Social Media</h4> 
+                            <div class="footer__list-item">
+                                <img src="./images/facebook_white.svg" 
+                                alt="Facebook" 
+                                class="footer__social-icon">
+                                <p class="footer__social-link"><a href="#">Facebook
+                                </a>
+                                </p>
+                            </div>
+                            <div class="footer__list-item">
+                                <img src="./images/instagram_white.svg" 
+                                alt="Instagram" 
+                                class="footer__social-icon">
+                                <p class="footer__social-link"><a href="#">Instagram
+                                </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        <p>&copy; 2023 Christian Jordan Spence</p>
+                    </div>
+                </footer>
     </div>
 </body>
 </html>
