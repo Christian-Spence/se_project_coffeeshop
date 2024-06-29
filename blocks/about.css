@@ -1,25 +1,12 @@
 .about {
     background-color: #0A2850;
     color: white;
-    height: auto;
     position: relative;
     overflow: hidden;
 }
 
 .about__circle {
     border-radius: 50%;
-    border: 1px solid #2f80ed;
-    background-color: #2f80ed;
-    position: absolute;
-    left: -129px;
-    top: -152px;
-    width: 426px;
-    height: 426px;
-}
-
-.about__circle_animation_blurred{
-    border-radius: 50%;
-    border: 1px solid #2f80ed;
     background-color: #2f80ed;
     position: absolute;
     left: -129px;
@@ -29,9 +16,18 @@
     animation: pulsate 1.3s ease-in-out infinite;
 }
 
+.about__circle_animation_blurred{
+    border-radius: 50%;
+    background-color: #2f80ed;
+    position: absolute;
+    left: -129px;
+    top: -152px;
+    width: 426px;
+    height: 426px;
+}
+
 @keyframes pulsate{
     from {
-        transform: scale(.5 .5);
         opacity: 0.6;
     }
     to {
@@ -46,7 +42,7 @@
 }
 
 .about__title {
-    font-family: "Inter";
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
@@ -64,11 +60,15 @@
 }
 
 .about__paragraph{
-    font-family: "Noto Serif";
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 20px;
     margin: 0;
+}
+
+.about__paragraph:last-child{
+    padding-bottom: 0;
 }
