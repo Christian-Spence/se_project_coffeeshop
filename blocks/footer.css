@@ -47,6 +47,7 @@
     margin: 0;
     text-decoration: none;
     color: white;
+    font-family: Inter, Arial, sans-serif;
 }
 
 .footer__social-link:hover{

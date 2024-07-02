@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./pages/index.css"/>
     <link rel="image icon" href="favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Noto+Serif&amp;display=swap" 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" 
 rel="stylesheet">
     <title>Spence's Coffee Shop</title>
 </head>
@@ -112,15 +112,16 @@ rel="stylesheet">
                                 name="email"
                                 required/>
                             <button type="submit" class="form__button">Book a table</button>
-                            <fieldset class="form__fieldset_checkbox">
+                            <div class="form__fieldset_checkbox">
                                 <input
-                                class="form__checkbox"
+                                class="form__fieldset form__checkbox"
                                 name="Terms of use"
                                 id="terms-of-use"
                                 type="checkbox"/>
-                                <label for="terms-of-use" class="form__label_checkbox">I agree with the terms of use</label>
+                                <label for="terms-of-use" class="form__label form__label_checkbox">I agree with the terms of use</label>
+                            </div>
                             </fieldset>
-                            </fieldset>
+                    </div>
                         </form>
                     </div>
                 </section>
@@ -219,7 +220,7 @@ rel="stylesheet">
                 </section>
                 <section class="about" id="about">
                     <div class="about__circle"></div>
-                        <div class="about__circle_animation_blurred"></div>
+                        <div class="about__circle about__circle_animation_blurred"></div>
                         <div class="about__section">
                             <h1 class="about__title">About the coffee shop</h1>
                         <div class="about__content">
@@ -246,17 +247,15 @@ rel="stylesheet">
                         <div class="footer_list">
                         <h4 class="footer__social-heading">Social Media</h4> 
                             <div class="footer__list-item">
-                                <img src="./images/facebook_white.svg" 
-                                alt="Facebook" 
-                                class="footer__social-icon">
-                                <a href="#" class="footer__social-link">Facebook
+                                <a href="#" class="footer__social-link"><img src="./images/facebook_white.svg" 
+                                    alt="Facebook" 
+                                    class="footer__social-icon">Facebook
                                 </a>
                             </div>
                             <div class="footer__list-item">
-                                <img src="./images/instagram_white.svg" 
-                                alt="Instagram" 
-                                class="footer__social-icon">
-                                <a href="#" class="footer__social-link">Instagram
+                                <a href="#" class="footer__social-link"><img src="./images/instagram_white.svg" 
+                                    alt="Instagram" 
+                                    class="footer__social-icon">Instagram
                                 </a>
                             </div>
                         </div>
