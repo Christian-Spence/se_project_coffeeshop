@@ -69,6 +69,10 @@
     padding-top: 32px;
 }
 
+.form__label:first-child{
+    padding-top: 0;
+}
+
 .form__label_checkbox {
     margin-left: 12px;
     font-style: normal; 
