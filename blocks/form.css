@@ -57,6 +57,7 @@
     margin-bottom: 120px;
     height: 30px;
     display: flex;
+    padding: 0;
 }
 
 .form__label {
@@ -73,11 +74,7 @@
     padding-top: 0;
 }
 
-.form__label_checkbox {
+.form__label_type_checkbox {
     margin-left: 12px;
-    font-style: normal; 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
     padding: 0;
 }
