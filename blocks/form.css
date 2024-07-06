@@ -46,15 +46,6 @@
     padding: 0;
 }
 
-.form__fieldset_checkbox {
-    justify-content: center;
-    margin-top: 32px;
-    margin-bottom: 120px;
-    height: 30px;
-    display: flex;
-    padding: 0;
-}
-
 .form__label {
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
