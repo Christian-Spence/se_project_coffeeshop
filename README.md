@@ -21,3 +21,17 @@ It was created using HTML, CSS, and Javascript based on the design brief.
 
 - Increasing the menu size to add a bigger diversity of products.
 - Adding more videos to the recipes page so that whoever visits the website can have more recipes to learn how to make at home.
+
+##  Images
+
+- Header
+  
+![Header](https://github.com/user-attachments/assets/8af354c4-0c35-478d-8693-8163bd4dc380)
+
+- iFrame Video Import
+  
+![Recipes iFrame](https://github.com/user-attachments/assets/2c744aa8-efc2-46ed-ae2b-45533533559a)
+
+- Form, Fieldset, Input
+
+![Form, Fieldset, Input](https://github.com/user-attachments/assets/eeba5857-6f59-432b-8ba2-5fd54d934600)
