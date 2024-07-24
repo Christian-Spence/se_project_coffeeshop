@@ -1,5 +1,7 @@
 # My Very Own Coffee Shop ☕ (Spence's Coffee Shop)
 
+https://christian-spence.github.io/se_project_coffeeshop/
+
 This is a project of mine where I engineered a website for a coffee shop. 
 The coffee shop has imported videos helping other people create recipes at home, 
 a booking form so people can book a table to visit the store location in person, 
